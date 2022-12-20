@@ -1,7 +1,10 @@
 body{
     overflow: hidden;
     margin: 0;
+    background-image: url(noel-2.jpg);
+    background-size: cover;
   }
+  
   h1{
     position: fixed;
     top: 50%;
@@ -38,10 +41,10 @@ body{
   h1 {
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 7em;
-    font-weight: 50px;
+    font-weight: 80px;
     text-align: center;
     margin-top: 2em;
-    font-weight: 600;
+    font-weight: bolder;
     position: fixed;
     top: 50%;
     left: 0;
@@ -50,6 +53,7 @@ body{
     transform:translateY(-200%);
     
   }
+  
   
   h1 span {
     display: inline-block;
@@ -70,12 +74,12 @@ body{
     0% {
       bottom: -0.7em;
       opacity: 1;
-      color:azure;
+      color:rgb(245, 5, 5);
     }
     
     50% {
       bottom: 0.7em;
-      color:tomato;
+      color: white;;
     }
   
     100% {

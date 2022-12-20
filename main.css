@@ -7,7 +7,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	background-color: #151515;
+	background-image: url(noel-5.jpg) ;
+	background-size: cover;
 }
 
 .base {
@@ -23,7 +24,7 @@ body {
 }
 
 button#activate {
-	background: #d60505;
+	background: rgb(23, 201, 11);
 	border: 0;
 	width: 20vmin;
 	height: 19vmin;
@@ -32,26 +33,26 @@ button#activate {
 	cursor: pointer;
 	outline: none;
 	z-index: 2;
-	box-shadow: 0 4vmin 0.15vmin 0vmin #af0000, 0 2vmin 0.15vmin 0vmin #af0000;
+	box-shadow: 0 4vmin 0.15vmin 0vmin #14d003, 0 2vmin 0.15vmin 0vmin #22da06;
 	top: -2.5vmin;
-	border: 0.5vmin solid #af0000a1;
+	border: 0.3vmin solid #1bd11b;
 	transition: all 0.25s ease 0s;
 }
 
 button#activate:hover {
-	box-shadow: 0 3vmin 0.15vmin 0vmin #af0000, 0 1vmin 0.15vmin 0vmin #af0000;
+	box-shadow: 0 3vmin 0.15vmin 0vmin #14d003, 0 1vmin 0.15vmin 0vmin #14d003;
 	top: -1.5vmin;
 	transition: all 0.5s ease 0s;
 }
 button#activate:active, button#activate.pushed {
-	box-shadow: 0 1vmin 0.15vmin 0vmin #af0000, 0 1vmin 0.15vmin 0vmin #af0000;
+	box-shadow: 0 1vmin 0.15vmin 0vmin #14d003, 0 1vmin 0.15vmin 0vmin #14d003;
 	top: 0.5vmin;
 	transition: all 0.25s ease 0s;
 }
 button#activate.pushed {
-	box-shadow: 0 0 20px 10px #ff3c3c, 0 0 100px 50px #ff2828;
-	background: #ff0000;
-	border-bottom: 3px solid #00000020;
+	box-shadow: 0 0 20px 10px #14d003, 0 0 100px 50px #14d003;
+	background: #14d003;
+	border-bottom: 3px solid #14d003;
 }
 
 
@@ -111,12 +112,12 @@ button#activate.pushed {
 
 
 
-.grid {
+/*.grid {
 	background:repeating-linear-gradient(150deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 49px, rgb(255 255 255 / 10%) 50px ,rgb(0 0 0 / 30%) 51px , rgba(255,255,255,0) 55px ), repeating-linear-gradient(30deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 49px, rgb(255 255 255 / 10%) 50px ,rgb(0 0 0 / 30%) 51px , rgba(255,255,255,0) 55px );
 	position: fixed;
 	width: 200vw;
 	height: 150vh;
-}
+}*/
 
 
 .warning {
@@ -124,30 +125,30 @@ button#activate.pushed {
 	z-index: 0;
 	width: 45vmin;
 	height: 45vmin;
-	background: repeating-linear-gradient(-45deg, black, black 3vmin, yellow 3vmin, yellow 6vmin);
+	background: repeating-linear-gradient(-45deg, #a7a7a7, white 3vmin, #289407 3vmin, #046b04 6vmin);
 	transform: rotateX(-35deg) rotateY(45deg) rotateZ(0deg) rotate3d(1, 0, 0, 90deg);
-	box-shadow: 0 0 0 3vmin #af0000;
+	box-shadow: 0 0 0 3vmin #ceb62a	;
 }
 
 .warning:before {
 	content: "";
 	width: 80%;
 	height: 80%;
-	background: linear-gradient(45deg, #000000 0%, #414141 74%);
+	background: linear-gradient(45deg, #ed1809 0%, #a80404 74%);
 	float: left;
 	margin-top: 10%;
 	margin-left: 10%;
-	border: 1vmin solid yellow;
+	border: 1vmin solid #C0C0C0;
 	border-radius: 1vmin;
 	box-sizing: border-box;
 }
 
 .warning:after {
-	content: "WARNING:\2009 DANGER";
+	content: "MERRY CHRISTMAS";
 	color: white;
 	transform: rotate(90deg);
 	float: left;
-	background: #af0000;
+	background: #ceb62a;
 	position: absolute;
 	bottom: 18.5vmin;
 	left: -35vmin;
@@ -219,7 +220,7 @@ button#activate.pushed {
 	font-size: 5vmin;
 	text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
 	perspective-origin: left;
-	background: #af0000;
+	background: #ceb62a;
 	padding: 1vmin;
 	transform: rotateX(-35deg) rotateY(45deg) rotateZ(0deg) rotate3d(1, 0, 0, 90deg) translate(33.5vmin, -2vmin);
 	text-align: center;
@@ -228,7 +229,7 @@ button#activate.pushed {
 }
 
 div#panel:before {
-	content: "DO YOU LOVE ME";
+	content: "GIÁNG SINH NÀY !";
 	top: 3vmin;
 	position: relative;
 	font-size: 8vmin;
@@ -241,7 +242,7 @@ div#panel:before {
 
 #panel {
 	position: absolute;
-	background: #ff0000d0;
+	background: #14d003;
 	color: #ffffff;
 	font-family: Arial, Helvetica, serif;
 	width: 90vmin;
@@ -249,7 +250,7 @@ div#panel:before {
 	font-size: 3.25vmin;
 	padding: 1vmin 2vmin;
 	height: 60vmin;
-	box-shadow: 0 0 0 100vmin #ff000060, 0 0 0 5vmin #ff000060;
+	box-shadow: 0 0 0 100vmin #038e1f60, 0 0 0 5vmin #24ef2460;
 	z-index: 5;
 	display: none;
 	text-align: center;
@@ -263,7 +264,7 @@ div#panel:before {
 
 #panel2 {
     position: absolute;
-	background: #ff0000d0;
+	background: #14d003;
 	color: #ffffff;
 	font-family: Arial, Helvetica, serif;
 	width: 90vmin;
@@ -271,7 +272,7 @@ div#panel:before {
 	font-size: 3.25vmin;
 	padding: 1vmin 2vmin;
 	height: 60vmin;
-	box-shadow: 0 0 0 100vmin #ff000060, 0 0 0 5vmin #ff000060;
+	box-shadow: 0 0 0 100vmin #038e1f60, 0 0 0 5vmin #24ef2460;
 	z-index: 5;
 	display: none;
 	text-align: center;
