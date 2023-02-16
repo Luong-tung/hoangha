@@ -229,7 +229,7 @@ button#activate.pushed {
 }
 
 div#panel:before {
-	content: "NGUYỄN THẢO VÂN";
+	content: "NGUYỄN THẢO VÂN!";
 	top: 3vmin;
 	position: relative;
 	font-size: 8vmin;
