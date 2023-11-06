@@ -96,12 +96,5 @@ body{
     animation:ease-out;
   }
 
-  @keyframes fadein {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-    
-  }
+ 
+  
