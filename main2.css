@@ -1,8 +1,8 @@
 body{
     overflow: hidden;
-    margin: 0;
+    margin:0 ;
     background-image: url(noel-2.jpg);
-    background-size: cover;
+  background-size: 100%;
   }
   
   h1{
