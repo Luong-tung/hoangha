@@ -93,7 +93,7 @@ body{
     position: absolute;
     top: 105%;
     right: 44%;
-    animation: fadein ease 1s;
+    animation:ease-out;
   }
 
   @keyframes fadein {
