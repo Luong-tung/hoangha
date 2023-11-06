@@ -24,7 +24,7 @@ body {
 }
 
 button#activate {
-	background: rgb(23, 201, 11);
+	background: #ffff00;
 	border: 0;
 	width: 20vmin;
 	height: 19vmin;
@@ -33,26 +33,26 @@ button#activate {
 	cursor: pointer;
 	outline: none;
 	z-index: 2;
-	box-shadow: 0 4vmin 0.15vmin 0vmin #14d003, 0 2vmin 0.15vmin 0vmin #22da06;
+	box-shadow: 0 4vmin 0.15vmin 0vmin #fdf700, 0 2vmin 0.15vmin 0vmin #fdf700;
 	top: -2.5vmin;
-	border: 0.3vmin solid #1bd11b;
+	border: 0.3vmin solid #ffff00;
 	transition: all 0.25s ease 0s;
 }
 
 button#activate:hover {
-	box-shadow: 0 3vmin 0.15vmin 0vmin #14d003, 0 1vmin 0.15vmin 0vmin #14d003;
+	box-shadow: 0 3vmin 0.15vmin 0vmin #fdf700, 0 1vmin 0.15vmin 0vmin #fdf700;
 	top: -1.5vmin;
 	transition: all 0.5s ease 0s;
 }
 button#activate:active, button#activate.pushed {
-	box-shadow: 0 1vmin 0.15vmin 0vmin #14d003, 0 1vmin 0.15vmin 0vmin #14d003;
+	box-shadow: 0 1vmin 0.15vmin 0vmin #fdf700, 0 1vmin 0.15vmin 0vmin #fdf700;
 	top: 0.5vmin;
 	transition: all 0.25s ease 0s;
 }
 button#activate.pushed {
-	box-shadow: 0 0 20px 10px #14d003, 0 0 100px 50px #14d003;
-	background: #14d003;
-	border-bottom: 3px solid #14d003;
+	box-shadow: 0 0 20px 10px #fdf700, 0 0 100px 50px #fdf700;
+	background: #fdf700;
+	border-bottom: 3px solid #fdf700;
 }
 
 
@@ -125,9 +125,9 @@ button#activate.pushed {
 	z-index: 0;
 	width: 45vmin;
 	height: 45vmin;
-	background: repeating-linear-gradient(-45deg, #a7a7a7, white 3vmin, #289407 3vmin, #046b04 6vmin);
+	background: repeating-linear-gradient(-45deg, #ffffff, white 3vmin, #83ecfa 3vmin, rgb(28, 179, 254) 6vmin);
 	transform: rotateX(-35deg) rotateY(45deg) rotateZ(0deg) rotate3d(1, 0, 0, 90deg);
-	box-shadow: 0 0 0 3vmin #ceb62a	;
+	box-shadow: 0 0 0 3vmin #d30303	;
 }
 
 .warning:before {
@@ -144,11 +144,11 @@ button#activate.pushed {
 }
 
 .warning:after {
-	content: "MERRY CHRISTMAS";
+	content: "HOÀNG THU HÀ";
 	color: white;
 	transform: rotate(90deg);
 	float: left;
-	background: #ceb62a;
+	background: #d30303;
 	position: absolute;
 	bottom: 18.5vmin;
 	left: -35vmin;
@@ -213,6 +213,7 @@ button#activate.pushed {
 
 
 .text {
+
 	position: absolute;
 	margin-top: 55vmin;
 	color: white;
@@ -220,7 +221,7 @@ button#activate.pushed {
 	font-size: 5vmin;
 	text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
 	perspective-origin: left;
-	background: #ceb62a;
+	background: #d30303;
 	padding: 1vmin;
 	transform: rotateX(-35deg) rotateY(45deg) rotateZ(0deg) rotate3d(1, 0, 0, 90deg) translate(33.5vmin, -2vmin);
 	text-align: center;
@@ -242,7 +243,7 @@ div#panel:before {
 
 #panel {
 	position: absolute;
-	background: #14d003;
+	background: #5dcddc;
 	color: #ffffff;
 	font-family: Arial, Helvetica, serif;
 	width: 90vmin;
@@ -250,7 +251,7 @@ div#panel:before {
 	font-size: 3.25vmin;
 	padding: 1vmin 2vmin;
 	height: 60vmin;
-	box-shadow: 0 0 0 100vmin #038e1f60, 0 0 0 5vmin #24ef2460;
+	box-shadow: 0 0 0 100vmin #0f667760, 0 0 0 5vmin #24bcef60;
 	z-index: 5;
 	display: none;
 	text-align: center;
@@ -264,7 +265,7 @@ div#panel:before {
 
 #panel2 {
     position: absolute;
-	background: #14d003;
+	background: #d30303;
 	color: #ffffff;
 	font-family: Arial, Helvetica, serif;
 	width: 90vmin;
@@ -272,7 +273,7 @@ div#panel:before {
 	font-size: 3.25vmin;
 	padding: 1vmin 2vmin;
 	height: 60vmin;
-	box-shadow: 0 0 0 100vmin #038e1f60, 0 0 0 5vmin #24ef2460;
+	box-shadow: 0 0 0 100vmin #0f667760, 0 0 0 5vmin #24bcef60;
 	z-index: 5;
 	display: none;
 	text-align: center;
